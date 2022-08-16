@@ -1,0 +1,206 @@
+
+<html lang="en">
+  <head>
+      <link rel="stylesheet" href="/css/style.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>portafolio de trabajo</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik+Beastly&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="full-page">  
+      <header>
+        <nav class="menu">
+          <label class="logo">Matias Rodriguez</label>     
+              <ul id="otromodo" class="menu_items">
+                <li>
+                  <a href="#About">About</a>
+                </li>
+                <li>
+                  <a href="#work">Work</a>
+                </li>
+                <li>
+                  <a href="#studying">Studying</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+              <span class="btn_menu" onclick="showmenu()">
+                <i class="fas fa-bars"></i>
+              </span>
+            </nav>
+      </header>
+      <section id="About" class="About">
+          <article>
+              <h2>Hi, I am Matias</h2>
+              <p>a web developer and a company administrator</p>
+          </article>
+      </section>
+      <section id="work" class="project-section">
+          <article>
+              <h3 class="projects-section-header">These are some of my projects</h3>
+              <div class="projects-grid">
+                <a
+                  href="https://codepen.io/Matukp/pen/NWgKOwm"
+                  target="_blank"
+                  class="project-project-tile"
+                >
+                  <img
+                    class="project-image"
+                    src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2018/04/23/e4a3d8a5-2c44-480a-b300-1b2b03e205a5/avengers-infinity-war-poster""
+                    alt="project"
+                  />
+                  <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Tribute Page
+                    <span class="code">&#47;&gt;</span>
+                  </p>
+                </a>
+                <a
+                  href="https://codepen.io/Matukp/pen/GRENqgb"
+                  target="_blank"
+                  class="project project-tile"
+                >
+                  <img
+                    class="project-image"
+                    src="data:image/png;base64,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"
+                    alt="project"
+                  />
+                  <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Shop-page
+                    <span class="code">&#47;&gt;</span>
+                  </p>
+                </a>
+                <a
+                  href="https://codepen.io/Matukp/pen/PojqrgL"
+                  target="_blank"
+                  class="project project-tile"
+                >
+                  <img
+                    class="project-image"
+                    src="https://www.idealminischool.ca/wp-content/uploads/2020/09/Forms.jpg"
+                    alt="project"
+                  />
+                  <p class="project-title">
+                    <span class="code">&lt;</span>
+                    my test form
+                    <span class="code">&#47;&gt;</span>
+                  </p>
+                </a>
+                <a
+                href="https://codepen.io/Matukp/pen/oNwpVJv"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://previews.123rf.com/images/yupiramos/yupiramos1706/yupiramos170602322/79419706-sombra-azul-y-blanco-hoja-de-papel-vector-dise%C3%B1o-gr%C3%A1fico.jpg"
+                  alt="project"
+                />
+                <p class="project-title">
+                  <span class="code">&lt;</span>
+                  document page
+                  <span class="code">&#47;&gt;</span>
+                </p>
+              </a>
+              <a
+              href="https://www.freecodecamp.org/fcc2a6333a0-e8fe-49ab-9ae4-4940385822e3"
+              target="_blank"
+              class="project project-tile"
+            >
+              <img
+                class="project-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh7HwVz9h18DrB8OeLJ1oUyWw6JPIBqfxDUEiFi_804PEIQxzvfuW5p0eQ3inRMifes4s&usqp=CAU"
+                alt="project"
+              />
+              <p class="project-title">
+                <span class="code">&lt;</span>
+                HTML
+                <span class="code">&#47;&gt;</span>
+              </p>
+            </a>
+            <a
+            href="https://www.freecodecamp.org/fcc2a6333a0-e8fe-49ab-9ae4-4940385822e3"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaZnE5ifAxtdu6i-oCJAsGuRe00UIW3JIGMKO826CSEFQRFbuQzYu83Kq1VFvnqOj22Cc&usqp=CAU"
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+              CSS
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+              </div>
+          </article>
+      </section>
+      <section id="studying" class="studying">
+          <article>
+              <h3>I keep studying</h3>
+              <p>this is what i study today</p>
+              <div id="caja-1">
+                <p id="learning">
+                  Learning all the English language to apply it to life and work.
+                </p>
+                <p id="learning">
+                  Learning accounting at its best so as not to lose knowledge of accounting.
+                </p>
+                <p id="learning">
+                  Learning JavaScript to apply the knowledge in my studies of programming languages.
+                </p>
+              </div>
+          </article>
+      </section>
+      <section id="contact" class="contact">
+        <article>
+        <h3>how to contact me</h3>
+              <p>here are some social networks to contact me</p>
+              <div class="social-buttons">
+                <a href="https://www.facebook.com/matias.marchese.1" target="blank_" class="social-buttons__button social-button social-button--facebook">
+                <span class="social-button__inner">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>
+                </span>
+                </a>
+                <a href="https://twitter.com/matute_jaja_" target="blank_" class="social-buttons__button social-button social-button--twitter">
+                <span class="social-button__inner">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+                </span>
+                </a>
+                <a href="https://www.instagram.com/matias_marchese.ok/" target="blank_" class="social-buttons__button social-button social-button--instagram">
+                <span class="social-button__inner">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                </span>
+                </a>
+                
+               </div>
+            </article>
+      </section>
+      <footer>
+        <p id="final">
+          this portfolio is real and is updated every month <a href="" style="color: rgb(255, 255, 255);">09/2021.</a>
+        </p>
+        <p id="final">
+          &copy; Created for <a href="https://www.instagram.com/matias_marchese.ok/" target="_blank" style="color: rgb(255, 255, 255);"
+          >Matias Rodriguez</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+  </html>
